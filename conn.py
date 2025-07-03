@@ -10,5 +10,9 @@ def Conectar():
     )
 
 
-conn = Conectar()
-conn.close()
+# conn = Conectar()
+# cursor = conn.cursor()
+# cursor.execute("SELECT NOME FROM IMIGRANTE")
+# for nome in cursor.fetchall():
+#     print(nome)
+# conn.close()

@@ -1,4 +1,5 @@
 import os
+from imigranteTela import ImigranteMenu
 
 
 def LimpaTela():
@@ -21,7 +22,7 @@ def Menu():
         opcao = input("Escolha uma opção:")
 
         if opcao == '1':
-            print("Opção imigrante")
+            ImigranteMenu()
         elif opcao == '2':
             print("Opção complementar")
         elif opcao == '3':
